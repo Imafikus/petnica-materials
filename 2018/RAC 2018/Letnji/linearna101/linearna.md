@@ -74,7 +74,7 @@ Skalarni proizvod
 ===
   $x\cdot y=|x||y|\cos w$ - 2D
   
-  $x\cdot y=x_1y_1+x_2y_2+x_3y_3w$
+  $x\cdot y=x_1y_1+x_2y_2+x_3y_3$
 
 ---
 
@@ -142,7 +142,7 @@ Možemo dobiti bilo koju drugu bazu tog istog prostora
 ===
 * Primenom konačnog broja linearnih operatora(transformacija) ćemo jedno bazu transformisati u drugu
 * Imamo zapravo kompozicije funkcija
-* Iste su dimenzije, pa je regulator regularan
+* Iste su dimenzije, pa je operator regularan
 ---
 Regularni operatori
 ===
@@ -155,6 +155,9 @@ Regularni operatori nam omogućuju da manipulišemo prostorom
 Regularni operatori nam omogućuju da manipulišemo prostorom
 ===
 * Translacije, rotacije, skaliranje, refleksija...
+* Neuralne mreže
+* Grafovi
+* ...
 ---
 Matrice (Kvadratne)
 ===
@@ -192,11 +195,24 @@ Determinanta matrice
 * Sarusovo Pravilo
 * La Granž
 ---
+Neke kul matrice
+===
+* Matrica susedstva na K-ti stepen daje K-ti sused čvora
+* Matrica Markovljevog lanca na K-ti stepen daje verovatnoću da se K-ti događaj desi
+* Matrica kod neuralne mreže predstavlja prelaz na sledeći sloj
+* ...
+---
 Što ovo mnogo dobro radi na kompu?
 ===
 ---
 Paralelizacija!
 ===
+---
+---
+Paralelizacija!
+===
+* BLAS - CPU
+* GPU
 ---
 Pitanja?
 ===
